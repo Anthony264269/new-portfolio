@@ -1,97 +1,90 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    min-height: 100vh;
-    min-width: 100vw;
-    background-color: #9a9898;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    position: relative;
-    overflow-x: hidden;
-  }
-  
-  nav {
-    color: black;
-    font-size: 2em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    .nav-link {
-      border: solid rgb(91, 86, 86) 3px;
-      border-radius: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 1px;
-      padding-bottom: 1px;
-      background-color: aliceblue;
-    }
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #a09d9d;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  overflow-x: hidden;
+}
 
-  #presentation {
-    color: black;
-    height: 100vh;
-    border-bottom: 1px solid black;
-   
-  }
-  
-  #presentation-div{
-    height: 100%;
-  }
+nav {
+  color: black;
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-color: #8A9AAB;
+}
 
-  #presentation h1 {
-    margin-left: 5px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  #presentation p {
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  #bg-presentation {
-    
-    border-radius: 30px;
-    opacity: 0.95;
-    width: 90%;
-  }
-  
-  #presentation p {
-    font-size: 1.8em;
-  }
-  
-  #ma-photo {
-    border-radius: 50%;
-    opacity: 0.5;
-    transition: opacity .4s;
-  }
-  
-  
-  #ma-photo:hover {
-    opacity: 1;
-  }
-   
-  #mes-projets {
-    height: 100%;
-    width: 100%;
-  
-  }
-  
-  h2 {
-    font-size: 2.5em;
-    font-family: 'Protest Strike', sans-serif;
-    font-weight: bold;
-  }
-  
-  #barre {
-    height: 50px;
+#presentation {
+  color: black;
+  height: 100vh;
+  border-bottom: 1px solid black;
+
+}
+
+#presentation-div {
+  height: 100%;
+}
+
+#presentation h1 {
+  margin-left: 5px;
+  font-family: 'Poppins', sans-serif;
+  color: #8D9D89;
+  text-shadow: 5px 4px 6px rgba(237, 237, 237, 0.38);
+}
+
+#presentation p {
+  font-family: 'Poppins', sans-serif;
+}
+
+#bg-presentation {
+
+  border-radius: 30px;
+  opacity: 0.95;
+  width: 90%;
+  /* background-color: #8D9D89; */
+}
+
+#presentation p {
+  font-size: 1.8em;
+}
+
+#ma-photo {
+  filter: grayscale(100%);
+}
+
+
+#ma-photo:hover {
+  opacity: 1;
+}
+
+#mes-projets {
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+
+}
+
+
+h2 {
+  font-size: 2.5em;
+  font-family: 'Protest Strike', sans-serif;
+  font-weight: bold;
+}
+
+#barre {
+  height: 50px;
 }
 
 <--mes projets-->
-
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -105,9 +98,10 @@
   width: 500px;
   height: 250px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
   cursor: pointer;
   transition: 0.4s;
+  background-color: transparent;
 }
 
 .card .card_image {
@@ -135,8 +129,6 @@
 
 .card:hover {
   transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
-
-

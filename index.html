@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="en" id="#barre">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <title>Anthony Canet Portefolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <title>Anthony Canet Portfolio</title>
 </head>
+
 <body>
-    <header>
-    <div >
-    <nav class="navbar fixed-top">
-      <div class="container-fluid d-flex justify-content-around">
-        <a class="nav-link" href="#mes-competences">Mes compétences</a>
-        <a class="nav-link" href="#mes-projets">Mes projets</a>
-        <a class="nav-link" href="#contact">Contact</a>
-      </div>
-    </nav>
-  </div>
+  <header id="header">
+    <div>
+      <nav class="navbar fixed-top">
+        <div class="container-fluid d-flex justify-content-around fs-4 py-3">
+          <a class="nav-link" href="#mes-competences">Mes compétences</a>
+          <a class="nav-link" href="#mes-projets">Mes projets</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
   </header>
   <main>
 
     <section id="presentation" class="container-lg p-0">
       <div id="presentation-div" class="row justify-content-center align-items-center">
+        <article class="col-sm-6 d-flex justify-content-lg-end justify-content-center">
+          <img id="ma-photo" src="./images/ma-photo-de-profil.png" alt="ma photo" height="900px" width="auto">
+        </article>
         <div class="col-sm-6 d-flex justify-content-lg-start justify-content-center">
           <article id="bg-presentation" class="p-4">
             <h1 class="mb-4">Salut, je suis Anthony, développeur web junior.</h1>
@@ -32,11 +37,8 @@
               rejoignant la formation
               développeur web et
               mobile de Garage404.</p>
-            </article>  
+          </article>
         </div>
-        <article class="col-sm-6 d-flex justify-content-lg-end justify-content-center">
-          <img id="ma-photo" src="./images/Capture d'écran 2024-01-02 201123.png" alt="ma photo" height="100%" width="auto">
-        </article>
       </div>
     </section>
 
@@ -46,23 +48,23 @@
 
     <section id="mes-projets" class="container">
       <h2 class="d-flex justify-content-center">Mes Projets</h2>
-      <div class="cards-list d-flex gap-3 col-12">
-  
+      <div class="cards-list gap-5 d-flex flex-wrap justify-content-center mt-4">
+
         <div class="card 1 col-12 col-md-6">
-          <div class="card_image"> <img src="./img-projets/one-million.png" /> 
+          <div class="card_image"> <img src="./img-projets/one-million.png" />
           </div>
           <div class="card_title title-white">
           </div>
         </div>
-        
-          <div class="card 2 col-12 col-md-6">
+
+        <div class="card 2 col-12 col-md-6">
           <div class="card_image">
             <img src="./img-projets/mountain.png" />
-            </div>
+          </div>
           <div class="card_title title-white">
           </div>
         </div>
-        
+
         <div class="card 3 col-12 col-md-6">
           <div class="card_image">
             <img src="./img-projets/pharma.png" />
@@ -70,31 +72,32 @@
           <div class="card_title">
           </div>
         </div>
-          
-          <div class="card 4 col-12 col-md-6">
+
+        <div class="card 4 col-12 col-md-6">
           <div class="card_image">
             <img src="./img-projets/quizz.png" />
-            </div>
+          </div>
           <div class="card_title title-black">
           </div>
-          </div>
-        
         </div>
+
+      </div>
     </section>
 
-    
-    <a href="#barre" class="btn">
-        <img src="./logo/icons8-flèche-haut-48.png" alt="" class="icone">
-      </a>
-    </main>
-    <footer>
 
-    </footer>
+    <a href="#header" class="btn fixed-bottom d-flex">
+      <img src="./logo/icons8-flèche-haut-48.png" alt="" class="icone">
+    </a>
+  </main>
+  <footer>
 
-    <script src="./main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+  </footer>
+
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 </body>
+
 </html>
