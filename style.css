@@ -1,3 +1,9 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* --------- */
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,38 +11,67 @@
 }
 
 body {
-  background-color: #a09d9d;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  background: #121214;
+  padding: 0;
+  margin: 0;
 
 }
 
 nav {
-  color: black;
-  font-size: 2em;
-  font-family: 'Poppins', sans-serif;
+  color: rgb(219, 219, 219);
+  font-size: 0.6em;
+  font-family: Space Grotesk;
   font-weight: bold;
-  background-color: #8A9AAB;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+#hero {
+  background-image: url(./background/bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+#hero h1 {
+  font-weight: 400;
+  font-size: 4em;
+  width: 25%;
+  text-transform: uppercase;
+}
+
+#hero h1 span {
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+#hero p {
+  text-transform: capitalize;
+  letter-spacing: 6px;
+  font-weight: 300;
+  font-size: 2em;
 }
 
 #presentation {
   color: black;
-  height: 100vh;
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid #8D9D89;
 
+  padding: 5% 0 0 0;
 
 }
 
-#presentation h1 {
+#presentation h2 {
   margin-left: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Space Grotesk;
+  font-size: 4em;
   color: #8D9D89;
   text-shadow: 5px 4px 6px rgba(237, 237, 237, 0.38);
 }
 
 #presentation p {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins;
+  color: whitesmoke;
+  font-weight: 300;
 }
 
 #bg-presentation {
@@ -51,8 +86,24 @@ nav {
   font-size: 1.8em;
 }
 
+#presentation .cv {
+  background-color: #8D9D89;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 30px ;
+  border-radius: 4px;
+
+  font-family: Space Grotesk;
+}
+
+#presentation button:hover {
+    letter-spacing: 3px;
+    transition: 0.4s;
+}
+
 #ma-photo {
   filter: grayscale(100%);
+  object-fit: contain;
 }
 
 
@@ -66,19 +117,31 @@ nav {
 
 }
 
+.icone {
+  height: 50px;
+  width: auto;
+}
+
+#mes-competences {
+  border-bottom: 5px solid #8D9D89;
+}
+
+#mes-competences h2{
+  color: whitesmoke;
+  font-family: SPACE Grotesk;
+  font-size: 3em;
+}
+
 #mes-projets {
   height: 100%;
   width: 100%;
   padding-top: 30px;
-  
-
 }
 
-
-h2 {
-  font-size: 2.5em;
-  font-family: 'Protest Strike', sans-serif;
-  font-weight: bold;
+#mes-projets h2{
+  color: whitesmoke;
+  font-family: SPACE Grotesk;
+  font-size: 3em;
 }
 
 #barre {
@@ -133,13 +196,11 @@ h2 {
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
-footer {
-  background-color: #8A9AAB;
-  height: 100px;
-}
 
 
-@media screen and (max-width:568px){
+
+
+@media screen and (max-width:568px) {
   #presentation {
     height: fit-content;
   }
