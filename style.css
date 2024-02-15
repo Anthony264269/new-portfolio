@@ -5,14 +5,11 @@
 }
 
 body {
-  min-height: 100vh;
-  min-width: 100vw;
   background-color: #a09d9d;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  position: relative;
-  overflow-x: hidden;
+
 }
 
 nav {
@@ -28,10 +25,7 @@ nav {
   height: 100vh;
   border-bottom: 1px solid black;
 
-}
 
-#presentation-div {
-  height: 100%;
 }
 
 #presentation h1 {
@@ -66,10 +60,17 @@ nav {
   opacity: 1;
 }
 
+.logo-competences img {
+  height: 8em;
+  width: auto;
+
+}
+
 #mes-projets {
   height: 100%;
   width: 100%;
   padding-top: 30px;
+  
 
 }
 
@@ -84,7 +85,7 @@ h2 {
   height: 50px;
 }
 
-<--mes projets-->
+/* mes-projets */
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -131,4 +132,15 @@ h2 {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+footer {
+  background-color: #8A9AAB;
+  height: 100px;
+}
+
+
+@media screen and (max-width:568px){
+  #presentation {
+    height: fit-content;
+  }
 }
