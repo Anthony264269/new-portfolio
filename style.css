@@ -31,6 +31,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+  height: auto;
+  width: 100%;
 }
 
 #hero h1 {
@@ -90,15 +92,15 @@ nav {
   background-color: #8D9D89;
   text-decoration: none;
   color: whitesmoke;
-  padding: 10px 30px ;
+  padding: 10px 30px;
   border-radius: 4px;
 
   font-family: Space Grotesk;
 }
 
 #presentation button:hover {
-    letter-spacing: 3px;
-    transition: 0.4s;
+  letter-spacing: 3px;
+  transition: 0.4s;
 }
 
 #ma-photo {
@@ -120,13 +122,15 @@ nav {
 .icone {
   height: 50px;
   width: auto;
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 #mes-competences {
   border-bottom: 5px solid #8D9D89;
 }
 
-#mes-competences h2{
+#mes-competences h2 {
   color: whitesmoke;
   font-family: SPACE Grotesk;
   font-size: 3em;
@@ -138,7 +142,7 @@ nav {
   padding-top: 30px;
 }
 
-#mes-projets h2{
+#mes-projets h2 {
   color: whitesmoke;
   font-family: SPACE Grotesk;
   font-size: 3em;
@@ -197,11 +201,81 @@ nav {
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
-
-
-
 @media screen and (max-width:568px) {
+
+
+
+  #hero {
+    height: fit-content;
+  }
+
+  #hero h1 {
+    font-size: 2em;
+  }
+
+  #hero p {
+    font-size: 1em;
+  }
+
+  #hero {
+    background-image: url(./background/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: auto;
+    width: 100%;
+  }
+
   #presentation {
     height: fit-content;
   }
+
+  #presentation button {
+
+    margin-bottom: 30px;
+
+  }
+
+  #presentation h2 {
+    font-size: 2.5em;
+  }
+
+  #presentation p {
+    font-size: 1.5em;
+  }
+
+
+  #ma-photo {
+    width: auto;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .icone{
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width:780px) {
+
+  nav {
+    font-size: 0.1em;
+    letter-spacing: 1px;
+  }
+
+  #presentation h2 {
+    font-size: 2.5em;
+  }
+
+  #presentation p {
+    font-size: 1.5em;
+  }
+
+  #ma-photo {
+    width: auto;
+    height: 500px;
+
+  }
+
 }
