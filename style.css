@@ -183,7 +183,13 @@ nav {
   border-radius: 40px;
 }
 
-.card .card_image img {
+.card .card_image a {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.card .card_image a img {
   width: inherit;
   height: inherit;
   border-radius: 40px;
