@@ -267,7 +267,10 @@ nav {
     width: 300px;
   }
 
-
+  .image-profil {
+    display: block;
+    justify-content: center;
+  }
 
   .icone {
     margin-bottom: 0px;
