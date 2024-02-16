@@ -245,6 +245,7 @@ nav {
 
   #presentation {
     height: fit-content;
+    display: flex;
     flex-direction: column;
   }
 
@@ -287,6 +288,7 @@ nav {
   }
 
 #presentation {
+  display: flex;
   flex-direction: column;
 }
 
