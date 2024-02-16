@@ -206,6 +206,12 @@ nav {
     -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
+.arrow-link {
+  position: fixed;
+  left: 5px;
+  bottom: 0;
+}
+
 @media screen and (max-width:568px) {
 
 
