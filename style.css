@@ -106,7 +106,12 @@ nav {
 #ma-photo {
   filter: grayscale(100%);
   object-fit: contain;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  height: 500px;
+  width: auto;
 }
+
 
 
 #ma-photo:hover {
@@ -246,12 +251,10 @@ nav {
 
 
   #ma-photo {
-    width: auto;
-    height: 400px;
-    margin-bottom: 30px;
+    border: 50%;
   }
 
-  .icone{
+  .icone {
     margin-bottom: 0px;
     margin-left: 0px;
   }
