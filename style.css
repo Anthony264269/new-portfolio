@@ -189,7 +189,7 @@ nav {
   border-radius: 40px;
   object-fit: cover;
 }
-.card .card_image a img {
+.card .card_image img {
   width: inherit;
   height: inherit;
   border-radius: 40px;
@@ -264,6 +264,12 @@ nav {
 
   #ma-photo {
     border: 50%;
+    width: 300px;
+  }
+
+  .image-profil {
+    display: flex;
+    justify-content: center;
   }
 
   .icone {
@@ -287,10 +293,14 @@ nav {
     font-size: 1.5em;
   }
 
-  #ma-photo {
-    width: auto;
-    height: 500px;
+  .image-profil {
+    display: flex;
+    justify-content: center;
+  }
 
+  #ma-photo {
+    height: 500px;
+    width: 300px;
   }
 
 }
