@@ -26,6 +26,9 @@ nav {
   letter-spacing: 5px;
 }
 
+.navbar-toggler-icon {
+  color: whitesmoke;
+}
 
 #hero {
   background-image: url(./background/bg-desktop.jpg);
@@ -313,7 +316,9 @@ nav {
   .icone {
     margin-bottom: 0px;
     margin-left: 0px;
-    padding: ;
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 15px;
   }
 }
 
