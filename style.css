@@ -223,7 +223,7 @@ nav {
   }
 
   #hero h1 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   #hero p {
@@ -251,11 +251,11 @@ nav {
   }
 
   #presentation h2 {
-    font-size: 2em;
+    font-size: 1.2em;
   }
 
   #presentation p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
 
@@ -304,7 +304,7 @@ font-size: 70%;
 
   .copyright {
     
-font-size: 1em;
+font-size: 0.6em;
 margin-top: 0;
 padding-bottom: 5px;
   }
@@ -374,7 +374,7 @@ padding-bottom: 5px;
 
 
 
-@media screen and (max-width:780px) {
+@media screen and (min-width:580px) and (max-width:780px) {
 
   nav {
     font-size: 0.1em;
