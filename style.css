@@ -281,6 +281,17 @@ nav {
   }
 }
 
+@media screen and (max-width:680px) {
+
+#presentation {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+}
+
 @media screen and (max-width:780px) {
 
   nav {
