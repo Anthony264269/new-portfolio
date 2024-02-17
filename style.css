@@ -305,7 +305,7 @@ nav {
 
   .copyright {
 
-    font-size: 0.6em;
+    font-size: 0.6em;.0
     margin-top: 0;
 
   }
@@ -320,11 +320,11 @@ nav {
   }
 
   #hero h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   #hero p {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   #hero {
@@ -355,11 +355,20 @@ nav {
     font-size: 1em;
   }
 
+  #mes-competences h2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+
 
   #ma-photo {
     width: 300px;
     height: auto;
-    border-radius: 0%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
   }
 
   .image-profil {
