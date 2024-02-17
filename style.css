@@ -216,6 +216,100 @@ nav {
   bottom: 0;
 }
 
+@media screen and (max-width:430px) {
+
+  #hero {
+    height: fit-content;
+  }
+
+  #hero h1 {
+    font-size: 1em;
+  }
+
+  #hero p {
+    font-size: 0.5em;
+  }
+
+  #hero {
+    background-image: url(./background/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height: auto;
+    width: 100%;
+  }
+
+  #presentation {
+    height: fit-content;
+   
+  }
+
+  #presentation button {
+
+    margin-bottom: 30px;
+
+  }
+
+  #presentation h2 {
+    font-size: 2em;
+  }
+
+  #presentation p {
+    font-size: 1em;
+  }
+
+
+  #ma-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 500px;
+  }
+
+  .image-profil {
+    display: block;
+    justify-content: center;
+  }
+
+  .icone {
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+
+  #mes-competences h2{
+
+    text-align: center;
+    font-size: 45px;
+    
+      }
+
+  #mes-competences {
+
+text-align: center;
+font-size: 70%;
+
+  }
+
+  #mes-projets {
+
+font-size: 70%;
+
+  }
+
+  #mes-projets h2{
+
+    text-align: center;
+    font-size: 45px;
+    
+      }
+
+  .copyright {
+    
+font-size: 1em;
+margin-top: 0;
+padding-bottom: 5px;
+  }
+}
+
 @media screen and (max-width:580px) {
 
 
