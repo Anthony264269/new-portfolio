@@ -23,8 +23,9 @@ nav {
   font-family: Space Grotesk;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
+
 
 #hero {
   background-image: url(./background/bg-desktop.jpg);
@@ -106,7 +107,7 @@ nav {
 #ma-photo {
   filter: grayscale(100%);
   object-fit: contain;
-  border-radius: 50px;
+  border-radius: 50%;
   margin-bottom: 30px;
   height: 500px;
   width: auto;
@@ -218,7 +219,7 @@ nav {
   bottom: 0;
 }
 
-@media screen and (max-width:568px) {
+@media screen and (max-width:580px) {
 
 
 
@@ -227,11 +228,11 @@ nav {
   }
 
   #hero h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   #hero p {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   #hero {
@@ -245,8 +246,7 @@ nav {
 
   #presentation {
     height: fit-content;
-    display: flex;
-    flex-direction: column;
+   
   }
 
   #presentation button {
@@ -256,17 +256,18 @@ nav {
   }
 
   #presentation h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   #presentation p {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
 
   #ma-photo {
-    border: 50%;
     width: 300px;
+    height: auto;
+    border-radius: 0%;
   }
 
   .image-profil {
@@ -288,12 +289,12 @@ nav {
   }
 
 #presentation {
-  display: flex;
-  flex-direction: column;
+
+  
 }
 
   #presentation h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   #presentation p {
