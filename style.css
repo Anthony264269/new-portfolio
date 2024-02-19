@@ -26,8 +26,8 @@ nav {
   letter-spacing: 5px;
 }
 
-.navbar-toggler-icon {
-  color: whitesmoke;
+.navbar-toggler {
+  background-color: whitesmoke;
 }
 
 #hero {
