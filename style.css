@@ -99,7 +99,7 @@ nav {
   font-family: Space Grotesk;
 }
 
-#presentation button:hover {
+#presentation a:hover {
   letter-spacing: 3px;
   transition: 0.4s;
 }
